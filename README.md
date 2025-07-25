@@ -1,17 +1,17 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
+**Nama Mahasiswa**: Bagus Febrian Dali Hidayat
+**NRP**: 5025201208 
+**Judul TA**: PENGEMBANGAN MODEL PREDIKSI HARGA SAHAMBERBASIS LSTM-GRU DI BURSA EFEK INDONESIA 
+**Dosen Pembimbing**: Arya Yudhi Wijaya  
+
 
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
+  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+(https://youtu.be/LtcitLjjOmQ)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
