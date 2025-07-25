@@ -1,8 +1,8 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: Bagus Febrian Dali Hidayat
-**NRP**: 5025201208 
-**Judul TA**: PENGEMBANGAN MODEL PREDIKSI HARGA SAHAMBERBASIS LSTM-GRU DI BURSA EFEK INDONESIA 
+**Nama Mahasiswa**: Bagus Febrian Dali Hidayat       
+**NRP**: 5025201208         
+**Judul TA**: PENGEMBANGAN MODEL PREDIKSI HARGA SAHAM BERBASIS LSTM-GRU DI BURSA EFEK INDONESIA           
 **Dosen Pembimbing**: Arya Yudhi Wijaya  
 
 
@@ -11,50 +11,45 @@
 ## 📺 Demo Aplikasi  
   
 
-(https://youtu.be/LtcitLjjOmQ)  
+[![Demo Aplikasi](https://i.ytimg.com/vi/LtcitLjjOmQ/maxresdefault.jpg)](https://youtu.be/LtcitLjjOmQ)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
 
 *Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
-## 🛠 Panduan Instalasi & Menjalankan Software  
+## 🛠 Panduan Instalasi & Menjalankan Software (via Google Colab) 
 
 ### Prasyarat  
-- Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+Tidak Perlu Instalasi Lokal
+Semua proses dilakukan di Google Colab. 
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-BagusFebrianRB.git
    ```
-2. **Instalasi Dependensi**
+2. **Buka File Utama Notebook**        
+   Setelah repository ter-clone, buka file berikut:
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   LSTM_128-GRU_32_TA.ipynb
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
-   ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
-   ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
+   
+3. **Jalankan Notebook**    
+Klik "Runtime" → "Run all" untuk menjalankan semua sel dari atas ke bawah. Pastikan runtime terkoneksi.
+4. **Proses yang Dilakukan dalam Notebook**
+   - Mengambil data historis saham LQ45 dari Yahoo Finance
+   - Membersihkan data (forward fill)
+   - Normalisasi dengan Min-Max Scaler
+   - Membentuk window time series (30 hari)
+   - Pelatihan model LSTM-GRU (128 unit LSTM + 32 unit GRU)
+   - Evaluasi model dengan MAE (%) dan RMSE
 
 ---
 
 ## 📚 Dokumentasi Tambahan
 
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
+- [![File notebook utama]](https://colab.research.google.com/drive/1X8wLq3atFIqeWSOaweZNBgCfwSvwOqZw?usp=sharing )
 
 ---
 
@@ -71,5 +66,5 @@ Pastikan proyek memenuhi kriteria berikut sebelum submit:
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: bagusfebrian67@gmail.com      
+- Pembimbing Utama: arya@if.its.ac.id
